@@ -6,3 +6,11 @@ F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\QuanLyKhachSancode\
 F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.csproj.GenerateResource.cache
 F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.exe
 F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.pdb
+F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\[HuuTu] QuanLyKhachSan\bin\Debug\QuanLyKhachSancode.exe
+F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\[HuuTu] QuanLyKhachSan\bin\Debug\QuanLyKhachSancode.pdb
+F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\[HuuTu] QuanLyKhachSan\obj\Debug\QuanLyKhachSancode.csprojAssemblyReference.cache
+F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\[HuuTu] QuanLyKhachSan\obj\Debug\QuanLyKhachSancode.frmMain.resources
+F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\[HuuTu] QuanLyKhachSan\obj\Debug\QuanLyKhachSancode.Properties.Resources.resources
+F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\[HuuTu] QuanLyKhachSan\obj\Debug\QuanLyKhachSancode.csproj.GenerateResource.cache
+F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\[HuuTu] QuanLyKhachSan\obj\Debug\QuanLyKhachSancode.exe
+F:\Học tập\CSLT2 - C#\BTVN\QuanLyKhachSan\QuanLyKhachSan\[HuuTu] QuanLyKhachSan\obj\Debug\QuanLyKhachSancode.pdb

@@ -153,18 +153,36 @@ namespace QuanLyKhachSancode
             if (txtMaPhong.Text == "")
             {
                 MessageBox.Show("Bạn cần nhập mã phòng");
+                txtMaPhong.Enabled = true;
+                txtTenPhong.Enabled = true;
+                txtDonGia.Enabled = true;
+                btnThem.Enabled = false;
+                btnLuu.Enabled = true;
+                btnHuy.Enabled = true;
                 txtMaPhong.Focus();
                 return;
             }
             if (txtTenPhong.Text == "")
             {
                 MessageBox.Show("Bạn cần nhập tên phòng");
+                txtMaPhong.Enabled = true;
+                txtTenPhong.Enabled = true;
+                txtDonGia.Enabled = true;
+                btnThem.Enabled = false;
+                btnLuu.Enabled = true;
+                btnHuy.Enabled = true;
                 txtTenPhong.Focus();
                 return;
             }
             if (txtDonGia.Text == "")
             {
                 MessageBox.Show("Bạn cần nhập đơn giá");
+                txtMaPhong.Enabled = true;
+                txtTenPhong.Enabled = true;
+                txtDonGia.Enabled = true;
+                btnThem.Enabled = false;
+                btnLuu.Enabled = true;
+                btnHuy.Enabled = true;
                 txtDonGia.Focus();
                 return;
             }
@@ -172,12 +190,18 @@ namespace QuanLyKhachSancode
             //Kiểm tra khóa trùng
              sql = "SELECT MaPhong FROM tblPhong WHERE MaPhong=N'" + txtMaPhong.Text.Trim() + "'";
              if(ThucThiSQL.CheckKey(sql) == true)
-                {
-                    MessageBox.Show("Mã phòng '" +txtMaPhong.Text.Trim()+ "' đã tồn tại, vui lòng nhập mã khác!","Thông báo");
-                    txtMaPhong.Focus();
-                    txtMaPhong.Text = "";
-                    return;
-                }
+            {
+                MessageBox.Show("Mã phòng '" +txtMaPhong.Text.Trim()+ "' đã tồn tại, vui lòng nhập mã khác!","Thông báo");
+                txtMaPhong.Enabled = true;
+                txtTenPhong.Enabled = true;
+                txtDonGia.Enabled = true;
+                btnThem.Enabled = false;
+                btnLuu.Enabled = true;
+                btnHuy.Enabled = true;
+                txtMaPhong.Focus();
+                txtMaPhong.Text = "";
+                return;
+            }
             //SQL Insert into *table* values()
             sql = "INSERT INTO tblPhong(MaPhong,TenPhong,DonGia) VALUES('" + txtMaPhong.Text.Trim() + "','" + txtTenPhong.Text.Trim() + "','" + txtDonGia.Text.Trim() + "')";
             ThucThiSQL.RunSQL(sql);
