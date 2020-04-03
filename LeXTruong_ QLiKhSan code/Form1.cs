@@ -18,7 +18,7 @@ namespace QuanLyKhachSancode
 
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable table = new DataTable();
-        //load data into DataGridView function
+        
         void loadData()
         {
             command = connection.CreateCommand();
@@ -49,7 +49,7 @@ namespace QuanLyKhachSancode
             txbDonGia.Text = dataGridView1.Rows[i].Cells[2].Value.ToString();
             txbTenPhong.Text = dataGridView1.Rows[i].Cells[1].Value.ToString();
         }
-
+        //Chức năng Sửa
         private void btnSua_Click(object sender, EventArgs e)
         {
             command = connection.CreateCommand();
