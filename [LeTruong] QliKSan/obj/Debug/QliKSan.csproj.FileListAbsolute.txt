@@ -1,0 +1,9 @@
+D:\How to programming with C#\BTVN buổi 12\QliKSan\obj\Debug\QliKSan.csprojAssemblyReference.cache
+D:\How to programming with C#\BTVN buổi 12\QliKSan\obj\Debug\QliKSan.frmMain.resources
+D:\How to programming with C#\BTVN buổi 12\QliKSan\obj\Debug\QliKSan.Properties.Resources.resources
+D:\How to programming with C#\BTVN buổi 12\QliKSan\obj\Debug\QliKSan.csproj.GenerateResource.cache
+D:\How to programming with C#\BTVN buổi 12\QliKSan\bin\Debug\QliKSan.exe.config
+D:\How to programming with C#\BTVN buổi 12\QliKSan\bin\Debug\QliKSan.exe
+D:\How to programming with C#\BTVN buổi 12\QliKSan\bin\Debug\QliKSan.pdb
+D:\How to programming with C#\BTVN buổi 12\QliKSan\obj\Debug\QliKSan.exe
+D:\How to programming with C#\BTVN buổi 12\QliKSan\obj\Debug\QliKSan.pdb
