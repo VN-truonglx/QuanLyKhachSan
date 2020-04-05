@@ -1,0 +1,5 @@
+D:\Quanlykhachsan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojAssemblyReference.cache
+D:\Quanlykhachsan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\Quanlykhachsan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Quản_lý_khách_sạn_nhà_nghỉ.resources
+D:\Quanlykhachsan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Quản_Lý_Khách_Sạn.resources
+D:\Quanlykhachsan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache

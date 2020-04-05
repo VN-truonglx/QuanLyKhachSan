@@ -1,0 +1,8 @@
+D:\Quanlykhachsan\QLKhachSan\bin\Debug\QLKhachSan.exe
+D:\Quanlykhachsan\QLKhachSan\bin\Debug\QLKhachSan.pdb
+D:\Quanlykhachsan\QLKhachSan\obj\Debug\QLKhachSan.csprojAssemblyReference.cache
+D:\Quanlykhachsan\QLKhachSan\obj\Debug\QLKhachSan.Properties.Resources.resources
+D:\Quanlykhachsan\QLKhachSan\obj\Debug\QLKhachSan.Quản_Lý_Khách_Sạn.resources
+D:\Quanlykhachsan\QLKhachSan\obj\Debug\QLKhachSan.csproj.GenerateResource.cache
+D:\Quanlykhachsan\QLKhachSan\obj\Debug\QLKhachSan.exe
+D:\Quanlykhachsan\QLKhachSan\obj\Debug\QLKhachSan.pdb
