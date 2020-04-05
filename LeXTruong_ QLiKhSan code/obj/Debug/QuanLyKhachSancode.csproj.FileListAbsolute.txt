@@ -1,8 +1,0 @@
-D:\How to programming with C#\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.frmMain.resources
-D:\How to programming with C#\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.Properties.Resources.resources
-D:\How to programming with C#\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.csproj.GenerateResource.cache
-D:\How to programming with C#\QuanLyKhachSan\QuanLyKhachSancode\bin\Debug\QuanLyKhachSancode.exe
-D:\How to programming with C#\QuanLyKhachSan\QuanLyKhachSancode\bin\Debug\QuanLyKhachSancode.pdb
-D:\How to programming with C#\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.exe
-D:\How to programming with C#\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.pdb
-D:\How to programming with C#\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.csprojAssemblyReference.cache
