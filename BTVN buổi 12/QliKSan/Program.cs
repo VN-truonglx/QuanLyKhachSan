@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace QliKSan
+namespace QLKhachSan
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace QliKSan
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
+            Application.Run(new Quản_Lý_Khách_Sạn());
         }
     }
 }
