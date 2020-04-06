@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\QuanlyKhSan\obj\Debug\QuanlyKhSan.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\QuanlyKhSan\obj\Debug\QuanlyKhSan.Form1.resources
+C:\Users\admin\source\repos\QuanlyKhSan\obj\Debug\QuanlyKhSan.Properties.Resources.resources
+C:\Users\admin\source\repos\QuanlyKhSan\obj\Debug\QuanlyKhSan.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\QuanlyKhSan\obj\Debug\QuanlyKhSan.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\QuanlyKhSan\bin\Debug\QuanlyKhSan.exe
+C:\Users\admin\source\repos\QuanlyKhSan\bin\Debug\QuanlyKhSan.pdb
+C:\Users\admin\source\repos\QuanlyKhSan\obj\Debug\QuanlyKhSan.exe
+C:\Users\admin\source\repos\QuanlyKhSan\obj\Debug\QuanlyKhSan.pdb
