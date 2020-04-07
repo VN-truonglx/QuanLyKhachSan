@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\BTL\QuanLyKhachSan\QuanLyKhachSancode\bin\Debug\QuanLyKhachSancode.exe
+C:\Users\dell\source\repos\BTL\QuanLyKhachSan\QuanLyKhachSancode\bin\Debug\QuanLyKhachSancode.pdb
+C:\Users\dell\source\repos\BTL\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\BTL\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.frmMain.resources
+C:\Users\dell\source\repos\BTL\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.Properties.Resources.resources
+C:\Users\dell\source\repos\BTL\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\BTL\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.exe
+C:\Users\dell\source\repos\BTL\QuanLyKhachSan\QuanLyKhachSancode\obj\Debug\QuanLyKhachSancode.pdb
