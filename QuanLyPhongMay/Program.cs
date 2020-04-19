@@ -16,7 +16,7 @@ namespace QuanLyPhongMay
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
            
-            Application.Run(new FrmInDanhSach());
+            Application.Run(new FrmPhongMay());
         }
     }
 }

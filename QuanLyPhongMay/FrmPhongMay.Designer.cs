@@ -287,6 +287,8 @@
             // btnIn
             // 
             this.btnIn.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIn.Image = ((System.Drawing.Image)(resources.GetObject("btnIn.Image")));
+            this.btnIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnIn.Location = new System.Drawing.Point(719, 435);
             this.btnIn.Name = "btnIn";
             this.btnIn.Size = new System.Drawing.Size(97, 39);
@@ -302,6 +304,7 @@
             this.cboMaPhongMay.Name = "cboMaPhongMay";
             this.cboMaPhongMay.Size = new System.Drawing.Size(150, 24);
             this.cboMaPhongMay.TabIndex = 32;
+            this.cboMaPhongMay.SelectedIndexChanged += new System.EventHandler(this.cboMaPhongMay_SelectedIndexChanged);
             // 
             // FrmPhongMay
             // 

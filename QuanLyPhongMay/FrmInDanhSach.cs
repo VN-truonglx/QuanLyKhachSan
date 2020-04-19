@@ -45,15 +45,6 @@ namespace QuanLyPhongMay
             string sql = "select tblPhongMay.MaPM , MaMay, TenMay from tblPhongMay join tblMayTinh on tblPhongMay.MaPM=tblMayTinh.MaPM group by MaMay, TenMay , tblPhongMay.MaPM";
             tbl = QuanlyPhongMay.Class.Functions.GetDataToTable(sql);
             dgvInDanhSach.DataSource = tbl;
-
-            dgvInDanhSach.Columns[0].HeaderText = "Mã Phòng Máy ";
-            dgvInDanhSach.Columns[1].HeaderText = "Mã Máy ";
-            dgvInDanhSach.Columns[2].HeaderText = "Tên Máy";
-            dgvInDanhSach.Columns[0].Width = 80;
-            dgvInDanhSach.Columns[1].Width = 130;
-            dgvInDanhSach.Columns[2].Width = 100;
-            dgvInDanhSach.AllowUserToAddRows = false;
-            dgvInDanhSach.EditMode = DataGridViewEditMode.EditProgrammatically;
         }
 
         private void btnInDanhSach_Click(object sender, EventArgs e)

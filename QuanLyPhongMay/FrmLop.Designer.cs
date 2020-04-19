@@ -45,7 +45,7 @@
             this.TenLop = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SiSo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtMaLop = new System.Windows.Forms.TextBox();
+            this.cboMaLop = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLop)).BeginInit();
             this.SuspendLayout();
             // 
@@ -220,19 +220,20 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "LỚP";
             // 
-            // txtMaLop
+            // cboMaLop
             // 
-            this.txtMaLop.Location = new System.Drawing.Point(118, 49);
-            this.txtMaLop.Name = "txtMaLop";
-            this.txtMaLop.Size = new System.Drawing.Size(150, 22);
-            this.txtMaLop.TabIndex = 24;
+            this.cboMaLop.FormattingEnabled = true;
+            this.cboMaLop.Location = new System.Drawing.Point(118, 47);
+            this.cboMaLop.Name = "cboMaLop";
+            this.cboMaLop.Size = new System.Drawing.Size(150, 24);
+            this.cboMaLop.TabIndex = 24;
             // 
             // FrmLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(846, 463);
-            this.Controls.Add(this.txtMaLop);
+            this.Controls.Add(this.cboMaLop);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvLop);
             this.Controls.Add(this.btnSua);
@@ -273,6 +274,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn TenLop;
         private System.Windows.Forms.DataGridViewTextBoxColumn SiSo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtMaLop;
+        private System.Windows.Forms.ComboBox cboMaLop;
     }
 }

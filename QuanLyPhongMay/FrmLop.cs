@@ -37,19 +37,19 @@ namespace QuanLyPhongMay
 
         private void dgvLop_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtMaLop.Text = dgvLop.CurrentRow.Cells["MaLop"].Value.ToString();
+            cboMaLop.Text = dgvLop.CurrentRow.Cells["MaLop"].Value.ToString();
             txtTenLop.Text = dgvLop.CurrentRow.Cells["TenLop"].Value.ToString();
             txtSiSo.Text = dgvLop.CurrentRow.Cells["SiSo"].Value.ToString();
-            txtMaLop.Enabled = false;
+            cboMaLop.Enabled = false;
         }
        
 
         private void btnThem_Click_1(object sender, EventArgs e)
         {
-            txtMaLop.Text = "";
+            cboMaLop.Text = "";
             txtTenLop.Text = "";
             txtSiSo.Text = "";
-            txtMaLop.Enabled = true;
+            cboMaLop.Enabled = true;
             txtTenLop.Enabled = true;
             txtSiSo.Enabled = true;
         }
@@ -59,10 +59,10 @@ namespace QuanLyPhongMay
             DataTable tbl;
             string sql;
 
-            if (txtMaLop.Text == "")
+            if (cboMaLop.Text == "")
             {
                 MessageBox.Show("Bạn cần nhập Mã lớp");
-                txtMaLop.Focus();
+                cboMaLop.Focus();
                 return;
             }
             if (txtTenLop.Text == "")
@@ -71,11 +71,11 @@ namespace QuanLyPhongMay
                 txtTenLop.Focus();
             }
             sql = "UPDATE tblLop SET TenLop ='" + txtTenLop.Text + "',SiSo='" + txtSiSo.Text
-                + "' where  MaLop ='" + txtMaLop.Text + "'";
+                + "' where  MaLop ='" + cboMaLop.Text + "'";
             tbl = QuanlyPhongMay.Class.Functions.GetDataToTable(sql);
             loadDataGridView();
-            txtMaLop.Enabled = false;
-            txtMaLop.Text = "";
+            cboMaLop.Enabled = false;
+            cboMaLop.Text = "";
             txtTenLop.Text = "";
             txtSiSo.Text = "";
 
@@ -83,10 +83,10 @@ namespace QuanLyPhongMay
 
         private void btnLuu_Click_1(object sender, EventArgs e)
         {
-            if (txtMaLop.Text == "")
+            if (cboMaLop.Text == "")
             {
                 MessageBox.Show("Bạn cần nhập mã lớp");
-                txtMaLop.Focus();
+                cboMaLop.Focus();
                 return;
             }
             if (txtTenLop.Text == "")
@@ -96,7 +96,7 @@ namespace QuanLyPhongMay
             }
             else
             {
-                string sql = "insert into tblLop values ( '" + txtMaLop.Text.Trim() + "', '" + txtTenLop.Text.Trim() + "','" + txtSiSo.Text.Trim() + "' )";
+                string sql = "insert into tblLop values ( '" + cboMaLop.Text.Trim() + "', '" + txtTenLop.Text.Trim() + "','" + txtSiSo.Text.Trim() + "' )";
                 MessageBox.Show(sql);
                 try
                 {
@@ -118,7 +118,7 @@ namespace QuanLyPhongMay
             btnXoa.Enabled = true;
             btnSua.Enabled = true;
             btnLuu.Enabled = false;
-            txtMaLop.Enabled = false;
+            cboMaLop.Enabled = false;
         }
         private void btnThoat_Click(object sender, EventArgs e)
         {
